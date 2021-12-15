@@ -7,7 +7,7 @@ Version : 8.75.0
 Requirements
 	1.XAMP or any other servers.
 	2.Database - Mysql
-	3.Database name : invoice_maker_db(sql file attached with this).
+	3.Database name : invoice_maker_db(sql file attached with this.Import this to phpmyadmin).
 	4.Internet connection required.
 
 Project Description
