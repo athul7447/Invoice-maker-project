@@ -15,10 +15,12 @@ class CreateInvoiceitemsTable extends Migration
     {
         Schema::create('invoiceitems', function (Blueprint $table) {
             $table->Increments('id');
+            $table->numeber('invoice_id');
             $table->string('name');
             $table->string('quantity');
             $table->string('unit_prize');
             $table->string('tax');
+            $table->string('total');
             $table->timestamps();
         });
     }
