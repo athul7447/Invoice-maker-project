@@ -19,6 +19,7 @@ class CreateInvoicesTable extends Migration
             $table->string('email');
             $table->string('subtotal_without_tax');
             $table->string('subtotal');
+            $table->string('discount_type');
             $table->string('discount');
             $table->timestamps();
         });
